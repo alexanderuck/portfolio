@@ -17,7 +17,7 @@
     <header id="header" class="header">
         <h1 class="header__title">Александр Рукавишников</h1>
         <p class="header__subtitle">фрилансер, веб-разработчик, создание сайтов</p>
-        <div class="header__arrow"><a  class="header__link" href="#link"><img src="./img/header/chevron-down.svg"
+        <div class="header__arrow"><a class="header__link" href="#link"><img src="./img/header/chevron-down.svg"
                     alt="Arrow"></a></div>
     </header>
 
@@ -55,16 +55,16 @@
 
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $("#header").on("click", "a", function (event) {
-            event.preventDefault();
-            var id = $(this).attr('href'),
-                top = $(id).offset().top;
-            $('body,html').animate({ scrollTop: top }, 1000);
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#header").on("click", "a", function (event) {
+                event.preventDefault();
+                var id = $(this).attr('href'),
+                    top = $(id).offset().top;
+                $('body,html').animate({ scrollTop: top }, 1000);
+            });
         });
-    });
-</script>
+    </script>
 </body>
 
 </html>
