@@ -25,7 +25,7 @@ body {
   height: 100vh;
 
   background-color: #556983;
-  background-image: url("/img/header/header-bg.jpg");
+  background-image: url("./../img/header/header-bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -103,3 +103,4 @@ body {
   line-height: 130%;
 }
 /** portfolio./ */
+>>>>>>> 5eae248 (test)
