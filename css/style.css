@@ -8,8 +8,13 @@ body {
   font-size: 16px;
   color: #000;
 }
+img {
+  max-width: 100%;
+}
 ._container {
-  max-width: 1110px;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -32,18 +37,23 @@ body {
 }
 .header__title {
   margin-bottom: 25px;
+  padding: 0 20px;
   color: #fff;
   font-weight: 700;
   font-size: 56px;
   line-height: 130%;
 }
 .header__subtitle {
-  max-width: 400px;
+  max-width: 420px;
+  padding: 0 10px;
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #fff;
+}
+.header__br {
+  display: none;
 }
 .header__arrow {
   position: absolute;
@@ -76,7 +86,6 @@ body {
 }
 .card {
   max-width: 540px;
-  height: 375px;
   margin-bottom: 30px;
   background: #fff;
   box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
@@ -102,7 +111,6 @@ body {
 }
 .card__image {
   width: 500px;
-  height: 240px;
   margin-bottom: 20px;
 }
 .card__title {
@@ -120,6 +128,7 @@ body {
 .footer {
   padding-top: 45px;
   padding-bottom: 130px;
+  padding: 45px 0 30px;
   background: #1e4776;
   color: #fff;
 }
@@ -147,8 +156,6 @@ body {
   font-weight: 600;
   margin-bottom: 15px;
 }
-.footer__social {
-}
 .social__title {
   font-weight: 600;
   line-height: 130%;
@@ -160,13 +167,6 @@ body {
 }
 .social__icons > * + * {
   margin-left: 30px;
-}
-.social__link {
-}
-.social__img {
-}
-
-.footer__contacts {
 }
 .footer__contacts-button {
   display: inline-block;
@@ -187,7 +187,7 @@ body {
 }
 .footer__contacts-button:hover {
   background-color: #fff;
-  color: #1E4776;
+  color: #1e4776;
 }
 .footer__contacts-text {
   margin: 15px 0;
@@ -200,10 +200,6 @@ body {
 .project {
   padding: 80px 0 120px 0;
   text-align: center;
-}
-.project__container {
-}
-._container {
 }
 .project__header {
   margin-bottom: 40px;
@@ -221,14 +217,6 @@ body {
 .project__description p {
   margin-bottom: 15px;
   line-height: 1.5;
-}
-.description {
-}
-.description__text {
-}
-.description__address {
-}
-.description__address-link {
 }
 .project__button-back {
   display: inline-block;
