@@ -83,27 +83,27 @@
   /** footer./ */
 
   /** project */
-  .project{
-      padding: 40px 0 60px;
+  .project {
+    padding: 40px 0 60px;
   }
-  .project__header{
-         font-size: 28px;
-         margin-bottom: 30px;
+  .project__header {
+    font-size: 28px;
+    margin-bottom: 30px;
   }
-  .project__img{
-      margin-bottom: 20px;  
+  .project__img {
+    margin-bottom: 20px;
   }
-  .project__description{
-      margin-bottom: 50px;
+  .project__description {
+    margin-bottom: 50px;
   }
-  .project__button-back{
-      padding: 0 10px;
-      width: 100%;
-      max-width: 320px;
+  .project__button-back {
+    padding: 0 10px;
+    width: 100%;
+    max-width: 320px;
   }
-/** project./ */
+  /** project./ */
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   .header__br {
     display: block;
   }

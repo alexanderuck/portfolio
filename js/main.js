@@ -1,3 +1,5 @@
+document.querySelector('.header').classList.remove('hidden');
+
 $(window).on('load', function () {
     // Vide.js - video bg
     $('#header').vide('./video/cover', {
