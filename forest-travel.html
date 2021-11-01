@@ -22,7 +22,7 @@
 
 <body>
 
-    <main class="project">
+    <main class="project hidden">
         <div class="project__container _container">
             <h1 class="project__header">Верстка сайта «Форест-тревел»</h1>
             <div class="project__img">
@@ -81,6 +81,10 @@
         </div>
     </footer>
 
+    
+    <script>
+        window.onload = () => document.querySelector('.project').classList.remove('hidden');
+    </script>
 </body>
 
 </html>
